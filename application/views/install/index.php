@@ -7,7 +7,7 @@
     <meta name="keywords" content=""/>
     <meta name="description" content="Ramom School Management System">
     <meta name="author" content="RamomCoder">
-    <title>Ramom School - Installation</title>
+    <title>Iskuls - Installation</title>
     <link rel="shortcut icon" href="<?=base_url('assets/images/favicon.png')?>">
     <link href="<?=$this->_install->is_secure('fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Shadows+Into+Light')?>" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="<?=base_url('assets/vendor/bootstrap/css/bootstrap.css')?>"/>
@@ -19,9 +19,7 @@
 </head>
 	<body>
 		<div class="container pmx">
-			<div class="logo">
-		        <img src="<?=base_url('uploads/app_image/logo_inst.png');?>">
-		    </div>
+			
             <section class="panel p-shadow">
                 <div class="tabs-custom">
                     <ul class="nav nav-tabs txt-font-et">
@@ -374,7 +372,7 @@
                     </div>
                 </div>
             </section>
-            <center> 2024 © All Rights Reserved - <a href="about:blank">RamomCoder</a></center>
+            <center> 2019 © All Rights Reserved - <a href="about:blank">sito_arez</a></center>
 		</div>
 		<script src="<?=base_url('assets/vendor/bootstrap/js/bootstrap.js')?>"></script>
 		<script src="<?php echo base_url('assets/vendor/select2/js/select2.js');?>"></script>

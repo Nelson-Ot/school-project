@@ -99,9 +99,9 @@ $route['profile'] = 'profile/index';
 $route['sections'] = 'sections/index';
 
 $route['authentication'] = 'authentication/index';
-$route['install'] = 'install/index';
+$route['home'] = 'home/index';
 $route['404_override'] = 'errors';
-$route['default_controller'] = 'install';
+$route['default_controller'] = 'home';
 
 $route['(:any)'] = 'home/index/$1';
 $route['translate_uri_dashes'] = FALSE;
