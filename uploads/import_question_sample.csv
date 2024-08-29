@@ -1,0 +1,5 @@
+question type,question group,question level,question,mark,option_1,option_2,option_3,option_4,answear
+true_false,1,easy,test question 1,1,Option 1,Option 2,Option 3,Option 4,TRUE
+descriptive,2,medium,test question 2,0.9,Option 1,Option 2,Option 3,Option 4,Nulla metus metus ullamcorper vel tincidunt sed euismod nibh
+multi_choice,1,hard,test question 3,1,Option 1,Option 2,Option 3,Option 4,"[""option_1"",""option_2""]"
+single_choice,1,medium,test question 4,1,Option 1,Option 2,Option 4,Option 4,option_1

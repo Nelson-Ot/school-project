@@ -1,0 +1,57 @@
+@page {
+    margin: -1px;
+    background: #fff;
+}
+
+.mark-container {
+    height: 100%;
+    min-width: 1000px;
+    position: relative;
+    margin: 0 auto;
+    font-size: 12px;
+}
+
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    border-collapse: collapse;
+    width: 100%;
+    border-spacing: 0;
+    margin-bottom: 20px;
+}
+
+.table tr th {
+    font-weight: bold !important;
+}
+
+table th {
+    font-weight: normal;
+    vertical-align: top;
+}
+
+table td,
+table th {
+    padding: 5px;
+}
+
+.table-bordered {
+    border-color: #ddd !important;
+}
+
+@media print {
+    .pagebreak {
+        clear: both;
+        page-break-before: always;
+    }
+    .table-bordered thead tr th,
+    .table-bordered tbody tr th,
+    .table-bordered tfoot tr th,
+    .table-bordered thead tr td,
+    .table-bordered tbody tr td,
+    .table-bordered tfoot tr td {
+        border-color: #ddd !important;
+        text-align: left;
+        background: transparent !important;
+        white-space: nowrap;
+    }
+}

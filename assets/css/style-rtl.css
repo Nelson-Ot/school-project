@@ -1,0 +1,187 @@
+@media only screen and (min-width: 768px) {
+    html.fixed .sidebar-left {
+        right: 0 !important;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    html.fixed.sidebar-left-sm .content-body {
+        margin-right: 230px;
+        margin-left: 0;
+    }
+    html.fixed.sidebar-left-sm .page-header {
+        right: 230px;
+        left: 0;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    html.fixed.sidebar-left-collapsed .page-header {
+        right: 73px;
+    }
+}
+
+.page-header {
+    -webkit-transition: right .25s ease-in-out;
+    -moz-transition: right .25s ease-in-out;
+    -o-transition: right .25s ease-in-out;
+    transition: right .25s ease-in-out;
+}
+
+ul.nav-main li i {
+    margin-left: 0.5em;
+}
+
+ul.nav-main li .nav-children span i {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+header .header-left {
+    float: right !important;
+}
+
+.header .logo-env {
+    float: right !important;
+}
+
+header .header-right {
+    float: left !important;
+}
+
+@media only screen and (min-width: 768px) {
+    .userbox .dropdown-menu {
+        left: -5px !important;
+        right: auto !important;
+    }
+}
+
+.nano-content {
+    right: 0 !important;
+    left: -17px !important;
+}
+
+.scrollable .scrollable-content {
+    right: 0 !important;
+    left: -17px !important;
+}
+
+.u-text {
+    padding-right: 10px;
+}
+
+.userbox .dropdown-menu ul>li:not(.user-p-box) a i {
+    margin-left: 3px;
+}
+
+.header-right .header-menu .header-menubox {
+    left: -5px !important;
+    right: auto !important;
+}
+
+.dashboard-page .widget-col-in .text-right {
+    text-align: left !important;
+}
+
+.panel-btn {
+    left: 13px !important;
+    right: auto !important;
+}
+
+ul.nav-main li.nav-parent>a:after {
+    right: auto;
+    left: inherit;
+}
+
+div.dataTables_wrapper div.dataTables_filter {
+    text-align: left !important;
+}
+
+@media only screen and (min-width: 768px) {
+    html.fixed.sidebar-left-collapsed .content-body {
+        margin-right: 73px;
+    }
+}
+
+html.fixed .content-body {
+    -webkit-transition: margin-right .25s ease-in-out;
+    -moz-transition: margin-right .25s ease-in-out;
+    -o-transition: margin-right .25s ease-in-out;
+    transition: margin-right .25s ease-in-out;
+}
+
+ul.nav-main>li>a {
+    padding: 9px 11px;
+}
+
+.header .logo-env {
+    background: linear-gradient(to left, #063944 0%, #313131 100%);
+}
+
+html.sidebar-light:not(.dark) .header .logo-env {
+    background: linear-gradient(to left, rgb(130, 225, 234) 0%, #fff 100%);
+}
+
+.page-header .page-title-icon {
+    margin: 11px 10px 0 0 !important;
+    float: right !important;
+}
+
+.page-header h2 {
+    float: right !important;
+    padding: 0 10px 0 22px;
+}
+
+.userbox {
+    margin-right: inherit;
+    margin-left: 17px;
+}
+
+.whatsapp-popup {
+    left: 25px;
+    right: inherit;
+}
+
+.whatsapp-popup .popup-content {
+    left: 0;
+    right: inherit;
+}
+
+.whatsapp-popup .popup-content:after {
+    left: 22px;
+    right: inherit;
+}
+
+.checkbox-replace .i-checks>i {
+    margin-left: 5px;
+}
+
+@media only screen and (max-width: 767px) {
+    .page-header {
+        padding-right: inherit;
+    }
+}
+
+.header-menu {
+    padding-right: 10px;
+}
+
+.select2-container--bootstrap .select2-selection--single .select2-selection__arrow {
+    right: inherit !important;
+    left: 12px !important;
+}
+
+.select2-container--bootstrap .select2-selection {
+    text-align: right !important;
+}
+
+.select2-container--bootstrap .select2-selection--single {
+    padding: 6px 12px 6px 24px !important;
+}
+
+.select2-container--bootstrap .select2-results>.select2-results__options {
+    text-align: right !important;
+}
